@@ -29,7 +29,10 @@ group :doc do
 end
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
+# adds simple form for submission
 gem 'simple_form'
+# adds user authentication
+gem 'devise', '>= 3.2.4'
 # pagination
 gem 'kaminari'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
