@@ -38,6 +38,8 @@ gem 'devise', '>= 3.2.4'
 gem 'kaminari'
 # convert an address to a latitude and longitude
 gem 'geocoder', '1.3.4'
+# upload images
+gem 'carrierwave', '~> 1.0'
 # store config in environment variables
 gem 'figaro', '>= 1.0.0'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
