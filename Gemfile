@@ -42,6 +42,8 @@ gem 'geocoder', '1.3.4'
 gem 'carrierwave', '~> 1.0'
 # store config in environment variables
 gem 'figaro', '>= 1.0.0'
+# communicate with Amazon S3
+gem 'fog'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
