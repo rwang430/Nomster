@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     resources :comments, only: :create 
     resources :photos, only: :create 
   end
+
+  resources :users, only: :show
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
